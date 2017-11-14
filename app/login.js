@@ -27,7 +27,7 @@ export default class Login extends Component {
     constructor(props){
         super(props);
         this.state = {
-            username:'15735929085',
+            username:'username',
             password:'123456',
             show: true,
         }
@@ -40,7 +40,7 @@ export default class Login extends Component {
                     <Image source={require('./image/drawable-hdpi-icon.png')} />
                 </View>
                 <View style={styles.imageText}>
-                    <Text>易沟通，沟通易</Text>
+                    <Text>Talk</Text>
                 </View>
                 <View style={styles.mt80}>
                     <View style={styles.TextInputView}>
